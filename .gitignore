@@ -1,0 +1,47 @@
+
+# --- Build folder ---
+build/
+Build/
+out/
+bin/
+obj/
+
+# --- Object files ---
+*.o
+*.obj
+
+# --- Executables ---
+*.exe
+*.out
+*.a
+*.so
+*.dll
+
+# --- Debugger files ---
+*.pdb
+*.idb
+*.dbg
+
+# --- VS Code ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+
+# --- Code Runner / C/C++ Runner ---
+*.log
+outDebug
+outDebug.exe
+
+# --- Mac / Linux System Files ---
+.DS_Store
+.idea/
+.cache/
+.vscode-test/
+
+# --- Temp files ---
+*~
+*.tmp
+*.temp
